@@ -1,8 +1,10 @@
-import { useEffect, useState } from "react";
+// de momento no usado
+//import { useEffect, useState } from "react";
 import { Button } from "./Button";
 export function Info() {
-    const [counter, setCounter] = useState(0);
-    useEffect(() => {}, [counter]);
+    //funcion no valida de momento
+    // const [counter, setCounter] = useState(0);
+    // useEffect(() => {}, [counter]);
 
     // const selectAll = (value: number) => {
     //     //pendiente arreglar
@@ -11,7 +13,7 @@ export function Info() {
     return (
         <>
             <section className="controls">
-                <p className="info">{counter} gentlemen pointing at you</p>
+                <p className="info"> gentlemen pointing at you</p>
                 <Button></Button>
             </section>
         </>
