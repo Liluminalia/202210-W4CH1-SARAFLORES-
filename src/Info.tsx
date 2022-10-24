@@ -4,10 +4,10 @@ export function Info() {
     const [counter, setCounter] = useState(0);
     useEffect(() => {}, [counter]);
 
-    const selectAll = (value: number) => {
-        //pendiente arreglar
-        setCounter(counter + value);
-    };
+    // const selectAll = (value: number) => {
+    //     //pendiente arreglar
+    //     setCounter(counter + value);
+    // };
     return (
         <>
             <section className="controls">

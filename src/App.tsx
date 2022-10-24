@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 import { Gentleman } from "./Gentleman";
-import { IGentleman } from "./models/IGentleman";
 import { Info } from "./Info";
 
 function App() {
