@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Button } from "./Button";
 export function Info() {
     const [counter, setCounter] = useState(0);
     useEffect(() => {}, [counter]);
@@ -11,15 +12,7 @@ export function Info() {
         <>
             <section className="controls">
                 <p className="info">{counter} gentlemen pointing at you</p>
-                <button
-                    className="button button--select"
-                    onClick={() => {
-                        //pendiente arreglar
-                        selectAll(-1);
-                    }}
-                >
-                    Select all
-                </button>
+                <Button></Button>
             </section>
         </>
     );
