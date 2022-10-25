@@ -1,17 +1,12 @@
-import { useEffect, useState } from "react";
 import { Button } from "./Button";
 export function Info() {
-    const [counter, setCounter] = useState(0);
-    useEffect(() => {}, [counter]);
+    //no terminado
+    //const [counter, setCounter] = useState(0);
 
-    const selectAll = (value: number) => {
-        //pendiente arreglar
-        setCounter(counter + value);
-    };
     return (
         <>
             <section className="controls">
-                <p className="info">{counter} gentlemen pointing at you</p>
+                <p className="info"> {}gentlemen pointing at you</p>
                 <Button></Button>
             </section>
         </>

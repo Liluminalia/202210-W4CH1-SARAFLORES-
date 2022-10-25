@@ -13,8 +13,6 @@ function App() {
             <main className="main">
                 <ul className="gentlemen">
                     <Gentleman></Gentleman>
-                    <Gentleman></Gentleman>
-                    <Gentleman></Gentleman>
                 </ul>
             </main>
         </div>
