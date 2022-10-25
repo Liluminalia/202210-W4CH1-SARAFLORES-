@@ -39,11 +39,24 @@ export function Gentleman() {
                             </li>
                         </ul>
                     </div>
-                    <i className="icon gentleman__icon fas fa-check"></i>
-                    <i className="icon gentleman__icon gentleman__icon--delete fas fa-times"></i>
+                    <i
+                        className="icon gentleman__icon fas fa-check"
+                        onClick={() => {}}
+                    ></i>
+                    <i
+                        className="icon gentleman__icon gentleman__icon--delete fas fa-times"
+                        onClick={() => {
+                            //intento fallido de boton de borrar
+                            // handlerEraser()
+                        }}
+                    ></i>
                 </li>
             ))}
             ;
         </>
     );
 }
+//intento fallido de boton de borrar
+// function handlerEraser(deletedID: number) {
+//     PointingMenInfo = PointingMenInfo.filter((item) => item.id !== deletedID);
+// }
